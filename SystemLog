@@ -1,0 +1,795 @@
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.747146] Start address = 0x200000, DL length = 64656, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.755723] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.760468] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.765000] Start address = 0xe000f000, DL length = 79648, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.773778] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.778519] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.783225] MtCmdPatchFinishReq
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.790246] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.795189] Patch SEM Status = 3
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.798437] release patch semaphore
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.801984] [42m WfMcuHwInit: Before NICLoadFirmware, check ICapMode = 0 [m
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.809150] Parsing CPU 0 fw tailer
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.812687] 	Chip ID: 0x0b
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.815422] 	Eco version: 0x01
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.818484] 	Region number: 0x07
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.821763] 	Format version: 0x02
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.825084] 	Format flag: 0x01
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.828144] 	Ram version: ____000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.831797] 	Built date: 20201105222304
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.835683] 	Common crc: 0xaa870ac
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.839086] Parsing tailer region 0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.842642] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.845551] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.848516] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.852034] 	Target address: 0x21fc00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.855701] 	Download size: 110592
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.859099] 	Feature set: 0x20
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.862198] Parsing tailer region 1
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.865681] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.868554] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.871548] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.875039] 	Target address: 0x31dc00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.878697] 	Download size: 205824
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.882121] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.885190] Parsing tailer region 2
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.888673] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.891579] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.894548] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.898032] 	Target address: 0x417400
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.901728] 	Download size: 31744
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.905046] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.908113] Parsing tailer region 3
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.911641] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.914528] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.917492] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.921037] 	Target address: 0xe0022800
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.924893] 	Download size: 411136
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.928291] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.931408] Parsing tailer region 4
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.934892] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.937767] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.940796] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.944316] 	Target address: 0xe0086e00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.948148] 	Download size: 332288
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.951574] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.954648] Parsing tailer region 5
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.958132] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.961038] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.964007] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.967491] 	Target address: 0x23ac00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.971179] 	Download size: 87040
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.974494] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.977558] Parsing tailer region 6
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.981072] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.983954] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.986917] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.990430] 	Target address: 0x400000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.994095] 	Download size: 81920
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   26.997404] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.000496] 	Release info: header tag = 0, total length = 68
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.006158] 	tag 1, padding length = 3, tag length = 61
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.011405] 	payload: t-neptune-main-mt7915-1953-MT7915D_1953_MT7621-20201105221902
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.019329] Start address = 0x21fc00, DL length = 110592, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.028046] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.032794] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.037701] Start address = 0x31dc00, DL length = 205824, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.046458] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.051204] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.056882] Start address = 0x417400, DL length = 31744, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.065551] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.070298] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.074548] Start address = 0xe0022800, DL length = 411136, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.083459] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.088206] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.095605] Start address = 0xe0086e00, DL length = 332288, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.info kernel: [   27.103265] br-lan: port 1(eth0) entered forwarding state
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.110069] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.114837] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.121710] Start address = 0x23ac00, DL length = 87040, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.130295] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.135045] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.139747] Start address = 0x400000, DL length = 81920, Data mode = 0x80000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.148357] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.153104] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.157749] MtCmdFwStartReq: override = 0x1, address = 0x21fc00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.165062] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.169834] Parsing CPU 1 fw tailer
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.173438] 	Chip ID: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.176173] 	Eco version: 0x01
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.179233] 	Region number: 0x03
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.182547] 	Format version: 0x02
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.185867] 	Format flag: 0x01
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.188927] 	Ram version: DEV_000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.192603] 	Built date: 20201105222323
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.196490] 	Common crc: 0x8fcbc5ad
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.199980] Parsing tailer region 0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.203529] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.206434] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.209398] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.212944] 	Target address: 0x10200000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.216885] 	Download size: 88512
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.220329] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.223473] Parsing tailer region 1
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.227049] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.229979] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.233030] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.236535] 	Target address: 0x10300000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.240452] 	Download size: 19392
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.243832] 	Feature set: 0x00
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.246952] Parsing tailer region 2
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.250578] 	Decomp crc: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.253480] 	Decomp size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.256455] 	Decomp block size: 0x0
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.259949] 	Target address: 0xe0000000
+Tue Jul 19 07:32:14 2022 kern.warn kernel: [   27.263949] 	Download size: 8768
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.267249] 	Feature set: 0x00
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.270480] 	Release info: header tag = 0, total length = 0
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.276191] Start address = 0x10200000, DL length = 88512, Data mode = 0x80000010
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.285141] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.289937] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.295201] Start address = 0x10300000, DL length = 19392, Data mode = 0x80000010
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.304142] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.308967] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.313419] Start address = 0xe0000000, DL length = 8768, Data mode = 0x80000010
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.322297] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.327118] MtCmdAddressLenReq:(ret = 0)
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.331383] MtCmdFwStartReq: override = 0x4, address = 0x0
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.437339] EventGenericEventHandler: CMD Success
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.442144] MCU Init Done!
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.444878] efuse_probe: efuse = 10000012
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.448888] RtmpChipOpsEepromHook::e2p_type=2, inf_Type=5
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.454339] RtmpEepromGetDefault::e2p_dafault=1
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.458893] RtmpChipOpsEepromHook: E2P type(2), E2pAccessMode = 2, E2P default = 1
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.466546] NVM is FLASH mode. dev_idx [0] FLASH OFFSET [0x0]
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.472370] [42mrtmp_nv_init(): EEPROM Size[131072][m
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.618524] [42m[EEPROMImage - PreCalImageInfo - PreCalImage - TxDPDImage][m
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.618524] [42m[0x8a700000 - 0x8a700e00 - 0x8a700e10 - 0x8a70d220][m
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.632433] validFlashEepromID(): eeFlashId=7915, pAd->ChipID=7915
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.639541] [32m[d-die version:1][m
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.680243] [32m[a-die version:2][m
+Tue Jul 19 07:32:15 2022 daemon.notice netifd: wan (1741): udhcpc: sending select for 192.168.110.160
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.819147] 
+Tue Jul 19 07:32:15 2022 kern.warn kernel: [   27.820717] [34mNICReadEEPROMParameters: EEPROM 0x62 0[m
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.088661] Country Region from e2p = 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.092561] antenna_default_reset() todo
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.096485] antenna_default_reset() value = 0x5292, TxPath = 2, RxPath = 2
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.103393] RTMPReadTxPwrPerRate(458): Don't Support this now!
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.109230] rc_radio_init(): DBDC MODE=1, ConcurrentBand=2
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.114749] rc_radio_init(): radio_ctrl=8bb71710,Band=0,rfcap=3,channel=1,PhyMode=2 extCha=0xf
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.123402] rc_radio_init(): radio_ctrl=8bb71a68,Band=1,rfcap=3,channel=1,PhyMode=2 extCha=0xf
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.132131] ucAction = 0, ucBandIdx = 0, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.137875] ucAction = 0, ucBandIdx = 1, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.143652] AntCfgInit(2858): Not support for HIF_MT yet!
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.149080] mt7915_check_RF_lock_down: RFlockDown Enable: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.154678] [34mMtReadPwrLimitTable: sku table idx: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.154678] [0mmt7915_check_RF_lock_down: RFlockDown Enable: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.172262] mt7915_check_RF_lock_down: RFlockDown Enable: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.177833] [34mMtReadPwrLimitTable: sku table idx: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.177833] [0mmt7915_check_RF_lock_down: RFlockDown Enable: 0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.195699] EEPROM Init Done!
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.198710] mac_init()-->
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.201368] init_mac_cr()-->
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.204249] <--mac_init()
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.210074] CmdRxHdrTransBLUpdateRsp::EventExtCmdResult.u4Status = 0x0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.218448] CmdRxHdrTransBLUpdateRsp::EventExtCmdResult.u4Status = 0x0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.226836] CmdRxHdrTransBLUpdateRsp::EventExtCmdResult.u4Status = 0x0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.233470] MAC Init Done!
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.236180] BBPInit():BBP Initialization.....
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.240586] 	Band 0: valid=1, Band=2, CBW=1, CentCh/PrimCh=1/1, prim_ch_idx=0, txStream=2
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.248768] 	Band 1: valid=0, Band=0, CBW=0, CentCh/PrimCh=0/0, prim_ch_idx=0, txStream=0
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.256966] BBPInit() todo
+Tue Jul 19 07:32:20 2022 kern.warn kernel: [   33.259671] PHY Init Done!
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.273784] tx_pwr_comp_init():NotSupportYet!
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.278183] Set_SCSDefaultEnable(): BandIdx=0, SCSEnable=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.283884] Set_SCSDefaultEnable(): BandIdx=1, SCSEnable=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.289572] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.293464] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.297796] ap_ftkd> Initialize FT KDP Module...
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.302567] Main bssid = 00:00:00:00:00:00
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.306671] SetMuruPlatformTypeProc: param.ucPlatformType = 2
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.312538] muru_cfg_dlul_limits:(Ret = 1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.316580] muru_cfg_dlul_limits:(Ret = 1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.320981] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.324805] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.328512] <==== mt_wifi_init, Status=0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.332581] CmdHeraStbcPriorityCtrl: u1BandIdx=0, u1Operation=1, u1StbcPriority=0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.340083] CmdHeraStbcPriorityCtrl: u1BandIdx=1, u1Operation=1, u1StbcPriority=0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.347785] Register MBSSID IF 1 (rax0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.352972] wdev_init(caller:mbss_create_vif+0x2fc/0x4c4 [mt_wifi]), wdev(1)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.361429] MSTA_Init (2) ---> ApCli
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.365158] Register MSTA IF (apcli0) , pAd->MSTANum = 1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.372181] wdev_init(caller:MSTA_Init+0x3e8/0x650 [mt_wifi]), wdev(2)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.380410] Caller: SetCommonHT+0x100/0x170 [mt_wifi]
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.385613] 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.385613] phy_mode=78, ch=0, wdev_type=2
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.391322] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.395246] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.402981] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.406925] mdpu_density=0, ampdu_factor=3
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.413071] Register MSTA IF (apclix0) , pAd->MSTANum = 2
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.419858] wdev_init(caller:MSTA_Init+0x3e8/0x650 [mt_wifi]), wdev(3)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.428465] Caller: SetCommonHT+0x100/0x170 [mt_wifi]
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.433737] 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.433737] phy_mode=177, ch=36, wdev_type=2
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.439569] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.443539] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.451269] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.455158] mdpu_density=0, ampdu_factor=3
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.461021] mt_service_init: wlan service inits successfully!
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.466809] WtcSetMaxStaNum: MaxStaNum:234, BssidNum:2, WdsNum:16, MSTANum:2, MaxNumChipRept:32, MinMcastWcid:284
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.631543] RedInit: set CR4/N9 RED Enable to 1.
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.636289] RedInit: RED Initiailize Done.
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.641086] proc_rps_file_open open proc file[/sys/class/net/eth0/queues/rx-0/rps_cpus] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.649856] proc_rps_file_open open proc file[/sys/class/net/ra0/queues/rx-0/rps_cpus] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.658800] proc_rps_file_open open proc file[/sys/class/net/rax0/queues/rx-0/rps_cpus] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.667330] proc_rps_file_open open proc file[/proc/irq/31/smp_affinity] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.674585] proc_rps_file_open open proc file[/proc/sys/net/core/netdev_max_backlog] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.682925] proc_rps_file_open open proc file[/sys/module/rcupdate/parameters/rcu_cpu_stall_timeout] OK
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.693091] cp_support_is_enabled: set CR4 CP_SUPPORT to Mode 2.
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.699157] RTMP_COM_IoctlHandle -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.705550] wifi_sys_open(), wdev idx = 0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.709700] ucAction = 0, ucBandIdx = 0, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.715536] ucAction = 0, ucBandIdx = 1, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.721480] BuildChannelList() BandIdx = 0, PhyMode = 78, ChListNum = 13:
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.728401] phy_oper_init(): operate TxStream = 2, RxStream = 2
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.734553] phy_freq_adjust : no prim_ch value for adjust!
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.741886] Caller: wlan_operate_init+0x104/0x118 [mt_wifi]
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.747726] 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.747726] phy_mode=78, ch=0, wdev_type=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.753524] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.757591] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.765391] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.769295] mdpu_density=5, ampdu_factor=3
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.773916] hw_ctrl_flow_v2_open: wdev_idx=0
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.778534] AP inf up for ra_0(func_idx) OmacIdx=0
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.783548] AsicRadioOnOffCtrl(): DbdcIdx=0 RadioOn
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.789041] ApAutoChannelAtBootUp----------------->
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.794154] ApAutoChannelAtBootUp: AutoChannelBootup[0] = 1
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.800054] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.804086] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.809368] UpdateBeaconHandler, wdev(0) bss not ready (state:0, caller:MTAPAutoSelectChannel+0x1bc/0x46c [mt_wifi])!!
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.820591] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.828236] MtCmdChannelSwitch: ctrl_chl=1, ctrl_ch2=0, cent_ch=1 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   33.848422] MtCmdSetTxRxPath: ctrl_chl=1, ctrl_ch2=0, cent_ch=1, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   34.071068] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   34.078682] MtCmdChannelSwitch: ctrl_chl=2, ctrl_ch2=0, cent_ch=2 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:21 2022 kern.warn kernel: [   34.098958] MtCmdSetTxRxPath: ctrl_chl=2, ctrl_ch2=0, cent_ch=2, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:21 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.321097] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.328777] MtCmdChannelSwitch: ctrl_chl=3, ctrl_ch2=0, cent_ch=3 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.349083] MtCmdSetTxRxPath: ctrl_chl=3, ctrl_ch2=0, cent_ch=3, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.570872] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.578537] MtCmdChannelSwitch: ctrl_chl=4, ctrl_ch2=0, cent_ch=4 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.598713] MtCmdSetTxRxPath: ctrl_chl=4, ctrl_ch2=0, cent_ch=4, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.820912] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.828597] MtCmdChannelSwitch: ctrl_chl=5, ctrl_ch2=0, cent_ch=5 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   34.848798] MtCmdSetTxRxPath: ctrl_chl=5, ctrl_ch2=0, cent_ch=5, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   35.070830] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   35.078484] MtCmdChannelSwitch: ctrl_chl=6, ctrl_ch2=0, cent_ch=6 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 kern.warn kernel: [   35.098867] MtCmdSetTxRxPath: ctrl_chl=6, ctrl_ch2=0, cent_ch=6, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:22 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.320784] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.328463] MtCmdChannelSwitch: ctrl_chl=7, ctrl_ch2=0, cent_ch=7 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.348718] MtCmdSetTxRxPath: ctrl_chl=7, ctrl_ch2=0, cent_ch=7, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:23 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.571061] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.578728] MtCmdChannelSwitch: ctrl_chl=8, ctrl_ch2=0, cent_ch=8 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.599026] MtCmdSetTxRxPath: ctrl_chl=8, ctrl_ch2=0, cent_ch=8, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.820677] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.828284] MtCmdChannelSwitch: ctrl_chl=9, ctrl_ch2=0, cent_ch=9 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   35.848309] MtCmdSetTxRxPath: ctrl_chl=9, ctrl_ch2=0, cent_ch=9, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   36.070680] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   36.078277] MtCmdChannelSwitch: ctrl_chl=10, ctrl_ch2=0, cent_ch=10 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:23 2022 kern.warn kernel: [   36.098467] MtCmdSetTxRxPath: ctrl_chl=10, ctrl_ch2=0, cent_ch=10, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.320589] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.328180] MtCmdChannelSwitch: ctrl_chl=11, ctrl_ch2=0, cent_ch=11 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.348345] MtCmdSetTxRxPath: ctrl_chl=11, ctrl_ch2=0, cent_ch=11, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.570623] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.578213] MtCmdChannelSwitch: ctrl_chl=12, ctrl_ch2=0, cent_ch=12 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.598371] MtCmdSetTxRxPath: ctrl_chl=12, ctrl_ch2=0, cent_ch=12, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.820604] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.828201] MtCmdChannelSwitch: ctrl_chl=13, ctrl_ch2=0, cent_ch=13 DBDCIdx=0, ChBand=0, BW=0, TXStream=2, RXStream=2, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   36.848372] MtCmdSetTxRxPath: ctrl_chl=13, ctrl_ch2=0, cent_ch=13, RxPath=3, BandIdx=0, ChBand=0, BW=0,TXStream=2, RXStream=3, scan(1)
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.071880] UpdateBeaconHandler, wdev(0) bss not ready (state:0, caller:MTAPAutoSelectChannel+0x3bc/0x46c [mt_wifi])!!
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.082675] ====================================================================
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.090073] Channel   1 : Busy Time =   3027, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.097522] Channel   2 : Busy Time =   1739, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.104963] Channel   3 : Busy Time =   1529, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.112401] Channel   4 : Busy Time =   2582, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.119802] Channel   5 : Busy Time =   1268, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.127257] Channel   6 : Busy Time =   5154, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.134696] Channel   7 : Busy Time =   4490, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.142143] Channel   8 : Busy Time =   6513, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.149545] Channel   9 : Busy Time =   6020, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.156980] Channel  10 : Busy Time =   6486, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.164421] Channel  11 : Busy Time =   2380, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.172083] Channel  12 : Busy Time =   2636, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.179477] Channel  13 : Busy Time =   6359, Skip Channel = FALSE, BwCap = TRUE
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.186908] ====================================================================
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.194362] Rule 3 Channel Busy time value : Select Primary Channel 5
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.200859] Rule 3 Channel Busy time value : Min Channel Busy = 1268
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.207214] Rule 3 Channel Busy time value : BW = 20
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.212218] [SelectClearChannelBusyTime] - band0 END
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.217190] ApAutoChannelAtBootUp : Auto channel selection: Selected channel = 5, IsAband = 0
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.225956] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:24 2022 kern.warn kernel: [   37.233597] MtCmdChannelSwitch: ctrl_chl=5, ctrl_ch2=0, cent_ch=7 DBDCIdx=0, ChBand=0, BW=1, TXStream=2, RXStream=2, scan(0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.329449] MtCmdSetTxRxPath: ctrl_chl=5, ctrl_ch2=0, cent_ch=7, RxPath=3, BandIdx=0, ChBand=0, BW=1,TXStream=2, RXStream=3, scan(0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.341665] zero_wait_dfs_switch_ch(): outband ch 0, ch_stat 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.347496] ApAutoChannelAtBootUp<-----------------
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.353866] ===> APStartUpForMbss(caller:ap_inf_open+0x178/0x1d4 [mt_wifi]), mbss_idx:0, CfgMode:177
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.363120] [PMF]APPMFInit:: Security is not WPA2/WPA2PSK AES
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.368867] [PMF]APPMFInit:: apidx=0, MFPC=0, MFPR=0, SHA256=0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.376226] Caller: SetCommonHT+0x100/0x170 [mt_wifi]
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.381390] 
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.381390] phy_mode=78, ch=5, wdev_type=1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.386967] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.390848] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.398505] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.402378] mdpu_density=5, ampdu_factor=3
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.407652] ap_link_up(caller:APStartUpForMbss+0x430/0x6b8 [mt_wifi]), wdev(0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.414978] wifi_sys_linkup, wdev idx = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.419072] wtc_acquire_groupkey_wcid: Found a non-occupied wtbl_idx:287 for WDEV_TYPE:1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.419072]  LinkToOmacIdx = 0, LinkToWdevType = 1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.432005] TRTableInsertMcastEntry:band0 group_idx[0]=0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.437354] wifi_sys_linkup:wdev(type=0,func_idx=1,wdev_idx=0),BssIndex(0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.444332] hw_ctrl_flow_v2_link_up: wdev_idx=0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.448896] (bssUpdateChannel), ucPrimCh=5, ucCentChSeg0=7, ucCentChSeg1=0, BW=1, ucHetbRU26Disable=0, ucHetbAllDisable=1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.459872] bssUpdateBmcMngRate (BSS_INFO_BROADCAST_INFO), CmdBssInfoBmcRate.u2BcTransmit= 8320, CmdBssInfoBmcRate.u2McTransmit = 8320
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.476306] UpdateBeaconHandler, BCN_UPDATE_INIT, OmacIdx = 0 (ra0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.482613] 	Band0 BcnInitedRnd = 38
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.486232] MtCmdTxPowerSKUCtrl: tx_pwr_sku_en: 0, BandIdx: 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.492040] MtCmdTxBfBackoffCtrl: fgTxBFBackoffEn: 0, BandIdx: 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.498071] MtCmdTxPowerPercentCtrl: fgTxPowerPercentEn: 0, BandIdx: 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.504687] TxCCKStreamCtrl: set wrong parameters
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.515784] set muru_update_he_cfg()!!!!
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.519722] PrintSrCmd:
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.519722] u1CmdSubId = 1, u1ArgNum = 0, u1DbdcIdx = 0, u1Status = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.519722] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.533858] PrintSrCmd:
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.533858] u1CmdSubId = 5, u1ArgNum = 0, u1DbdcIdx = 0, u1Status = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.533858] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.547938] PrintSrCmd:
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.547938] u1CmdSubId = 3, u1ArgNum = 0, u1DbdcIdx = 0, u1Status = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.547938] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 1
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.562041] PrintSrCmd:
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.562041] u1CmdSubId = 23, u1ArgNum = 0, u1DbdcIdx = 0, u1Status = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.562041] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.576390] apidx 0 for WscUUIDInit
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.579880] Generate UUID for apidx(0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.583722] WDS_Init():wds_num[0]=0, count=0, MAX_WDS_ENTRY=16, if_idx=0, flg_wds_init=0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.591856] Total allocated 0 WDS(es) for band0!
+Tue Jul 19 07:32:25 2022 kern.info kernel: [   37.597105] extif_set_dev(ra0)
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.608187] add tx_src: f8:5e:3c:40:eb:de
+Tue Jul 19 07:32:25 2022 user.debug : add ra0 into lan
+Tue Jul 19 07:32:25 2022 daemon.notice netifd: Interface 'wan' is now up
+Tue Jul 19 07:32:25 2022 daemon.notice netifd: wan (1741): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.624094] add tx_src: f2:5e:3c:40:eb:de
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.630437] nf_unregister_hooks()
+Tue Jul 19 07:32:25 2022 daemon.err odhcp6c[1745]: Failed to send DHCPV6 message to ff02::1:2 (Address not available)
+Tue Jul 19 07:32:25 2022 kern.info kernel: [   37.719194] S60samba (1807): drop_caches: 3
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.930846] no net device found for rax1 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.935936] no net device found for rax2 or apclix0
+Tue Jul 19 07:32:25 2022 kern.info kernel: [   37.945148] device ra0 entered promiscuous mode
+Tue Jul 19 07:32:25 2022 kern.info kernel: [   37.950076] br-lan: port 2(ra0) entered forwarding state
+Tue Jul 19 07:32:25 2022 kern.info kernel: [   37.955585] br-lan: port 2(ra0) entered forwarding state
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.962745] no net device found for rax3 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.967772] no net device found for rax4 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.973532] no net device found for rax5 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.979001] no net device found for rax6 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.984481] no net device found for rax7 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.989485] no net device found for rax8 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.994513] no net device found for rax9 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   37.999458] no net device found for rax10 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.004573] no net device found for rax11 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.009554] no net device found for rax12 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.014575] no net device found for rax13 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.019579] no net device found for rax14 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.024604] no net device found for rax15 or apclix0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.029723] add tx_src: fe:5e:3c:40:eb:de
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.033898] no net device found for ra1 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.038618] no net device found for ra2 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.043393] no net device found for ra3 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.048112] no net device found for ra4 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.052870] no net device found for ra5 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.057595] no net device found for ra6 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.062348] no net device found for ra7 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.067072] no net device found for ra8 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.071838] no net device found for ra9 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.076565] no net device found for ra10 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.081406] no net device found for ra11 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.086218] no net device found for ra12 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.091123] no net device found for ra13 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.096040] no net device found for ra14 or apcli0
+Tue Jul 19 07:32:25 2022 kern.warn kernel: [   38.101026] no net device found for ra15 or apcli0
+Tue Jul 19 07:32:25 2022 user.debug : brvif = eth0
+Tue Jul 19 07:32:25 2022 user.debug : brvif = ra0
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.2=/etc/wireless/mediatek/mt7915.dbdc.b1.dat
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.1=/etc/wireless/mediatek/mt7915.dbdc.b0.dat
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: iptables v1.6.2: can't initialize iptables table `raw': Table does not exist (do you need to insmod?)
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: Perhaps iptables or your kernel needs to be upgraded.
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: iptables v1.6.2: can't initialize iptables table `raw': Table does not exist (do you need to insmod?)
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: Perhaps iptables or your kernel needs to be upgraded.
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: iptables v1.6.2: can't initialize iptables table `raw': Table does not exist (do you need to insmod?)
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: Perhaps iptables or your kernel needs to be upgraded.
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: iptables v1.6.2: can't initialize iptables table `raw': Table does not exist (do you need to insmod?)
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S60samba: Perhaps iptables or your kernel needs to be upgraded.
+Tue Jul 19 07:32:26 2022 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.2=/etc/wireless/mediatek/mt7915.dbdc.b1.dat
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.1=/etc/wireless/mediatek/mt7915.dbdc.b0.dat
+Tue Jul 19 07:32:26 2022 user.debug : mt7615e_up called!
+Tue Jul 19 07:32:26 2022 daemon.notice procd: /etc/rc.d/S90telnet: run telnetd service......
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:26 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.2=/etc/wireless/mediatek/mt7915.dbdc.b1.dat
+Tue Jul 19 07:32:26 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.1=/etc/wireless/mediatek/mt7915.dbdc.b0.dat
+Tue Jul 19 07:32:26 2022 user.debug : mt7615e_up: ifconfig rax0 up
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.165041] rax0: ===> mbss_virtual_if_open
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.169263] RTMP_COM_IoctlHandle -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_INIT
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.176177] RTMP_COM_IoctlHandle -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.182631] wifi_sys_open(), wdev idx = 1
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.186810] ucAction = 0, ucBandIdx = 0, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.192663] ucAction = 0, ucBandIdx = 1, ucSmthIntlBypass = 0
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.198542] BuildChannelList() BandIdx = 1, PhyMode = 177, ChListNum = 21:
+Tue Jul 19 07:32:26 2022 daemon.crit xl2tpd[2429]: setsockopt recvref[30]: Protocol not available
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Using l2tp kernel support.
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: xl2tpd version xl2tpd-1.3.6 started on LEDE PID:2429
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Written by Mark Spencer, Copyright (C) 1998, Adtran, Inc.
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Forked by Scott Balmos and David Stipp, (C) 2001
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Inherited by Jeff McAdams, (C) 2002
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Forked again by Xelerance (www.xelerance.com) (C) 2006
+Tue Jul 19 07:32:26 2022 daemon.info xl2tpd[2429]: Listening on IP address 0.0.0.0, port 1701
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.205906] DfsBuildChannelList(): Done
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.209930] phy_oper_init(): operate TxStream = 2, RxStream = 2
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.216163] [1;33m [RadarStateCheck] RD_NORMAL_MODE [m 
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.222036] mt7915_apply_dpd_flatness_data: eeprom 0x62 bit 0 is 0, do runtime cal
+Tue Jul 19 07:32:26 2022 kern.warn kernel: [   39.229933] MtCmdChannelSwitch: ctrl_chl=36, ctrl_ch2=0, cent_ch=42 DBDCIdx=1, ChBand=1, BW=2, TXStream=2, RXStream=2, scan(0)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.344935] MtCmdSetTxRxPath: ctrl_chl=36, ctrl_ch2=0, cent_ch=42, RxPath=3, BandIdx=1, ChBand=1, BW=2,TXStream=2, RXStream=3, scan(0)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.359341] Caller: wlan_operate_init+0x104/0x118 [mt_wifi]
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.365256] 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.365256] phy_mode=177, ch=36, wdev_type=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.371374] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.375266] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.383066] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.387028] mdpu_density=5, ampdu_factor=3
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.393269] hw_ctrl_flow_v2_open: wdev_idx=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.398396] AP inf up for ra_1(func_idx) OmacIdx=0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.403475] AsicRadioOnOffCtrl(): DbdcIdx=1 RadioOn
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.409363] ApAutoChannelAtBootUp----------------->
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.414402] ApAutoChannelAtBootUp: AutoChannelBootup[1] = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.420763] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:27 2022 daemon.err telnetd[2471]: bind: Address in use
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.452024] MtCmdSetMacTxRx:(ret = 0)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.455744] zero_wait_dfs_update_ch(): DFSChHitBand 2
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.460915] zero_wait_dfs_switch_ch(): outband ch 0, ch_stat 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.466758] ApAutoChannelAtBootUp<-------
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.471098] [41m ap_run_at_boot() : ACS is disable !![m
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.478048] ===> APStartUpForMbss(caller:ap_inf_open+0x178/0x1d4 [mt_wifi]), mbss_idx:1, CfgMode:177
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.487277] [PMF]APPMFInit:: Security is not WPA2/WPA2PSK AES
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.493141] [PMF]APPMFInit:: apidx=1, MFPC=0, MFPR=0, SHA256=0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.500747] Caller: SetCommonHT+0x100/0x170 [mt_wifi]
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.505972] 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.505972] phy_mode=177, ch=36, wdev_type=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.511791] ht_cap: ht_cap->HtCapInfo, 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.515662] ldpc=1,ch_width=1,gf=0,sgi20=1,sgi40=1,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.523384] ht_cap: ht_cap->HtCapParm, 
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.527252] mdpu_density=5, ampdu_factor=3
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.533075] ap_link_up(caller:APStartUpForMbss+0x430/0x6b8 [mt_wifi]), wdev(1)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.540525] wifi_sys_linkup, wdev idx = 1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.544664] wtc_acquire_groupkey_wcid: Found a non-occupied wtbl_idx:286 for WDEV_TYPE:1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.544664]  LinkToOmacIdx = 0, LinkToWdevType = 1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.557849] TRTableInsertMcastEntry:band1 group_idx[1]=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.563393] wifi_sys_linkup:wdev(type=1,func_idx=1,wdev_idx=1),BssIndex(1)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.570906] hw_ctrl_flow_v2_link_up: wdev_idx=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.575646] (bssUpdateChannel), ucPrimCh=36, ucCentChSeg0=42, ucCentChSeg1=0, BW=2, ucHetbRU26Disable=0, ucHetbAllDisable=1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.586934] bssUpdateBmcMngRate (BSS_INFO_BROADCAST_INFO), CmdBssInfoBmcRate.u2BcTransmit= 8320, CmdBssInfoBmcRate.u2McTransmit = 8320
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.604380] UpdateBeaconHandler, BCN_UPDATE_INIT, OmacIdx = 0 (ra0)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.610774] 	Band1 BcnInitedRnd = 59
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.615614] MtCmdTxPowerSKUCtrl: tx_pwr_sku_en: 0, BandIdx: 1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.621643] MtCmdTxBfBackoffCtrl: fgTxBFBackoffEn: 0, BandIdx: 1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.627889] MtCmdTxPowerPercentCtrl: fgTxPowerPercentEn: 0, BandIdx: 1
+Tue Jul 19 07:32:27 2022 daemon.notice procd: /etc/rc.d/S96led: setting up led sys_red
+Tue Jul 19 07:32:27 2022 daemon.notice procd: /etc/rc.d/S96led: setting up led sys_green
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.730719] set muru_update_he_cfg()!!!!
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.734702] PrintSrCmd:
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.734702] u1CmdSubId = 1, u1ArgNum = 0, u1DbdcIdx = 1, u1Status = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.734702] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.748997] PrintSrCmd:
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.748997] u1CmdSubId = 5, u1ArgNum = 0, u1DbdcIdx = 1, u1Status = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.748997] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.763251] PrintSrCmd:
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.763251] u1CmdSubId = 3, u1ArgNum = 0, u1DbdcIdx = 1, u1Status = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.763251] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 1
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.777480] PrintSrCmd:
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.777480] u1CmdSubId = 23, u1ArgNum = 0, u1DbdcIdx = 1, u1Status = 0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.777480] u1DropTaIdx = 0, u1StaIdx = 0, u4Value = 0
+Tue Jul 19 07:32:27 2022 daemon.notice procd: /etc/rc.d/S96led: setting up led sys_status
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.791844] apidx 1 for WscUUIDInit
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.795491] Generate UUID for apidx(1)
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.799415] WDS_Init():wds_num[1]=0, count=0, MAX_WDS_ENTRY=16, if_idx=0, flg_wds_init=0
+Tue Jul 19 07:32:27 2022 kern.warn kernel: [   39.807725] Total allocated 0 WDS(es) for band1!
+Tue Jul 19 07:32:27 2022 kern.info kernel: [   39.813445] extif_set_dev(rax0)
+Tue Jul 19 07:32:27 2022 daemon.notice procd: /etc/rc.d/S96led: setting up led module-data
+Tue Jul 19 07:32:27 2022 user.debug : add rax0 into lan
+Tue Jul 19 07:32:27 2022 kern.info kernel: [   39.925066] device rax0 entered promiscuous mode
+Tue Jul 19 07:32:27 2022 kern.info kernel: [   39.929878] br-lan: port 3(rax0) entered forwarding state
+Tue Jul 19 07:32:27 2022 kern.info kernel: [   39.935435] br-lan: port 3(rax0) entered forwarding state
+Tue Jul 19 07:32:27 2022 kern.info kernel: [   39.950207] br-lan: port 2(ra0) entered forwarding state
+Tue Jul 19 07:32:27 2022 user.debug : brvif = eth0
+Tue Jul 19 07:32:27 2022 user.debug : brvif = ra0
+Tue Jul 19 07:32:27 2022 user.debug : brvif = rax0
+Tue Jul 19 07:32:27 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:27 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:27 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.2=/etc/wireless/mediatek/mt7915.dbdc.b1.dat
+Tue Jul 19 07:32:27 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.1=/etc/wireless/mediatek/mt7915.dbdc.b0.dat
+Tue Jul 19 07:32:27 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:27 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:27 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.2=/etc/wireless/mediatek/mt7915.dbdc.b1.dat
+Tue Jul 19 07:32:27 2022 user.debug : search_dev_and_profile_l1: MT7915D.1.1=/etc/wireless/mediatek/mt7915.dbdc.b0.dat
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'cellular'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wwan0'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4gwan'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4g'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wan2'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'cellular'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wwan0'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4gwan'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4g'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wan2'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'cellular'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wwan0'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4gwan'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network '4g'
+Tue Jul 19 07:32:28 2022 daemon.notice procd: /etc/rc.d/S99omcproxy: Warning: Section @zone[1] (wan) cannot resolve device of network 'wan2'
+Tue Jul 19 07:32:29 2022 daemon.notice procd: /etc/rc.d/S99smp: run smp.sh....
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: started, version 2.78 cachesize 150
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: DNS service limited to local subnets
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-DNSSEC no-ID loop-detect inotify
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq-dhcp[2713]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: using local addresses only for domain lan
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: reading /tmp/resolv.conf.auto
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: using local addresses only for domain lan
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: using nameserver 192.168.110.253#53
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: read /etc/hosts - 4 addresses
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: read /tmp/hosts/odhcpd - 0 addresses
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq[2713]: read /tmp/hosts/dhcp.cfg02411c - 2 addresses
+Tue Jul 19 07:32:29 2022 daemon.info dnsmasq-dhcp[2713]: read /etc/ethers - 0 addresses
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' 
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' Default
+Tue Jul 19 07:32:29 2022 user.warn : skip line without '=' 
+Tue May 20 17:28:57 2025 kern.info kernel: [   41.930207] br-lan: port 3(rax0) entered forwarding state
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:57 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2713]: exiting on receipt of SIGTERM
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: started, version 2.78 cachesize 150
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: DNS service limited to local subnets
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-DNSSEC no-ID loop-detect inotify
+Tue May 20 17:28:57 2025 daemon.info dnsmasq-dhcp[2810]: DHCP, IP range 192.168.1.100 -- 192.168.1.249, lease time 12h
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: read /etc/hosts - 4 addresses
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: read /tmp/hosts/odhcpd - 0 addresses
+Tue May 20 17:28:57 2025 daemon.info dnsmasq[2810]: read /tmp/hosts/dhcp.cfg02411c - 2 addresses
+Tue May 20 17:28:57 2025 daemon.info dnsmasq-dhcp[2810]: read /etc/ethers - 0 addresses
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' Default
+Tue May 20 17:28:58 2025 user.warn : skip line without '=' 
+Tue May 20 17:28:58 2025 daemon.notice procd: /etc/rc.d/S99smp: sh: -d: unknown operand
+Tue May 20 17:28:58 2025 daemon.info procd: - init complete -
+Tue May 20 17:28:58 2025 daemon.info dnsmasq[2810]: read /etc/hosts - 4 addresses
+Tue May 20 17:28:58 2025 daemon.info dnsmasq[2810]: read /tmp/hosts/odhcpd - 0 addresses
+Tue May 20 17:28:58 2025 daemon.info dnsmasq[2810]: read /tmp/hosts/dhcp.cfg02411c - 2 addresses
+Tue May 20 17:28:58 2025 daemon.info dnsmasq-dhcp[2810]: read /etc/ethers - 0 addresses
+Tue May 20 17:29:16 2025 daemon.notice netifd: wan (1741): udhcpc: sending renew
+Tue May 20 17:29:16 2025 daemon.notice netifd: wan (1741): udhcpc: received SIGTERM
+Tue May 20 17:29:16 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:29:16 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:29:17 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:29:17 2025 daemon.notice netifd: wan (3151): udhcpc: started, v1.25.1
+Tue May 20 17:29:17 2025 daemon.notice netifd: wan (3151): udhcpc: sending discover
+Tue May 20 17:29:17 2025 daemon.notice netifd: wan (3151): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:29:17 2025 daemon.notice netifd: wan (3151): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:29:17 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:29:17 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:29:17 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:29:17 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:29:20 2025 daemon.notice netifd: wan (3151): udhcpc: received SIGTERM
+Tue May 20 17:29:20 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:29:20 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:29:21 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:29:21 2025 daemon.notice netifd: wan (3420): udhcpc: started, v1.25.1
+Tue May 20 17:29:21 2025 daemon.notice netifd: wan (3420): udhcpc: sending discover
+Tue May 20 17:29:21 2025 daemon.notice netifd: wan (3420): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:29:21 2025 daemon.notice netifd: wan (3420): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:29:21 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:29:21 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:29:21 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:29:21 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:29:24 2025 daemon.err odhcp6c[1745]: Failed to send DHCPV6 message to ff02::1:2 (Operation not permitted)
+Tue May 20 17:32:15 2025 daemon.notice netifd: wan (3420): udhcpc: received SIGTERM
+Tue May 20 17:32:15 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:32:15 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:32:16 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:32:16 2025 daemon.notice netifd: wan (5681): udhcpc: started, v1.25.1
+Tue May 20 17:32:16 2025 daemon.notice netifd: wan (5681): udhcpc: sending discover
+Tue May 20 17:32:16 2025 daemon.notice netifd: wan (5681): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:32:16 2025 daemon.notice netifd: wan (5681): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:32:16 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:32:16 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:32:16 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:32:16 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:32:19 2025 daemon.notice netifd: wan (5681): udhcpc: received SIGTERM
+Tue May 20 17:32:19 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:32:19 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:32:20 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:32:20 2025 daemon.notice netifd: wan (5953): udhcpc: started, v1.25.1
+Tue May 20 17:32:20 2025 daemon.notice netifd: wan (5953): udhcpc: sending discover
+Tue May 20 17:32:20 2025 daemon.notice netifd: wan (5953): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:32:20 2025 daemon.notice netifd: wan (5953): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:32:20 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:32:20 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:32:20 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:32:20 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:32:41 2025 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue May 20 17:32:45 2025 daemon.notice netifd: wan (5953): udhcpc: received SIGTERM
+Tue May 20 17:32:45 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:32:45 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:32:46 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:32:46 2025 daemon.notice netifd: wan (6459): udhcpc: started, v1.25.1
+Tue May 20 17:32:46 2025 daemon.notice netifd: wan (6459): udhcpc: sending discover
+Tue May 20 17:32:46 2025 daemon.notice netifd: wan (6459): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:32:46 2025 daemon.notice netifd: wan (6459): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:32:47 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:32:47 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:32:47 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:32:47 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:34:18 2025 daemon.notice netifd: wan (6459): udhcpc: received SIGTERM
+Tue May 20 17:34:18 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:34:18 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:34:19 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:34:19 2025 daemon.notice netifd: wan (7744): udhcpc: started, v1.25.1
+Tue May 20 17:34:19 2025 daemon.notice netifd: wan (7744): udhcpc: sending discover
+Tue May 20 17:34:19 2025 daemon.notice netifd: wan (7744): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:34:20 2025 daemon.notice netifd: wan (7744): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:34:20 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:34:20 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:34:20 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:34:20 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:36:15 2025 daemon.notice netifd: wan (7744): udhcpc: received SIGTERM
+Tue May 20 17:36:15 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:36:15 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:36:16 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:36:16 2025 daemon.notice netifd: wan (9343): udhcpc: started, v1.25.1
+Tue May 20 17:36:16 2025 daemon.notice netifd: wan (9343): udhcpc: sending discover
+Tue May 20 17:36:16 2025 daemon.notice netifd: wan (9343): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:36:16 2025 daemon.notice netifd: wan (9343): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:36:16 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:36:16 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:36:16 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:36:16 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:36:40 2025 kern.info kernel: [  193.834508] mapfilter:drop IP addr timeout! stop dropping IP addr.
+Tue May 20 17:36:40 2025 kern.info kernel: [  504.182480] mt753x gsw: Port 1 Link is Up - 1Gbps/Full
+Tue May 20 17:36:40 2025 kern.info kernel: [  504.959605] mt753x gsw: Port 1 Link is Down
+Tue May 20 17:36:43 2025 kern.info kernel: [  508.050194] mt753x gsw: Port 1 Link is Up - 1Gbps/Full
+Tue May 20 17:36:44 2025 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue May 20 17:36:45 2025 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue May 20 17:36:45 2025 daemon.info dnsmasq-dhcp[2810]: DHCPREQUEST(br-lan) 192.168.1.239 a0:29:19:3f:88:a0 
+Tue May 20 17:36:45 2025 daemon.warn dnsmasq-dhcp[2810]: Ignoring domain global.ds.honeywell.com for DHCP host name IT0HLT665R5J3
+Tue May 20 17:36:45 2025 daemon.info dnsmasq-dhcp[2810]: DHCPACK(br-lan) 192.168.1.239 a0:29:19:3f:88:a0 IT0HLT665R5J3
+Tue May 20 17:36:45 2025 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue May 20 17:37:59 2025 daemon.info odhcpd[1488]: Using a RA lifetime of 0 seconds on br-lan
+Tue May 20 17:38:55 2025 authpriv.info dropbear[11629]: Child connection from 192.168.1.239:65056
+Tue May 20 17:39:00 2025 authpriv.notice dropbear[11629]: Auth succeeded with blank password for 'root' from 192.168.1.239:65056
+Tue May 20 17:41:23 2025 daemon.notice netifd: wan (9343): udhcpc: received SIGTERM
+Tue May 20 17:41:23 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:41:23 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:41:24 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:41:24 2025 daemon.notice netifd: wan (13552): udhcpc: started, v1.25.1
+Tue May 20 17:41:24 2025 daemon.notice netifd: wan (13552): udhcpc: sending discover
+Tue May 20 17:41:24 2025 daemon.notice netifd: wan (13552): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:41:24 2025 daemon.notice netifd: wan (13552): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:41:24 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:41:24 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:41:24 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:41:24 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:42:40 2025 daemon.notice netifd: wan (13552): udhcpc: received SIGTERM
+Tue May 20 17:42:40 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:42:40 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:42:41 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:42:41 2025 daemon.notice netifd: wan (14724): udhcpc: started, v1.25.1
+Tue May 20 17:42:41 2025 daemon.notice netifd: wan (14724): udhcpc: sending discover
+Tue May 20 17:42:41 2025 daemon.notice netifd: wan (14724): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:42:41 2025 daemon.notice netifd: wan (14724): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:42:41 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:42:41 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:42:41 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:42:41 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
+Tue May 20 17:43:12 2025 daemon.notice netifd: wan (14724): udhcpc: received SIGTERM
+Tue May 20 17:43:12 2025 daemon.notice netifd: Interface 'wan' is now down
+Tue May 20 17:43:12 2025 daemon.warn dnsmasq[2810]: no servers found in /tmp/resolv.conf.auto, will retry
+Tue May 20 17:43:13 2025 daemon.notice netifd: Interface 'wan' is setting up now
+Tue May 20 17:43:13 2025 daemon.notice netifd: wan (15330): udhcpc: started, v1.25.1
+Tue May 20 17:43:13 2025 daemon.notice netifd: wan (15330): udhcpc: sending discover
+Tue May 20 17:43:13 2025 daemon.notice netifd: wan (15330): udhcpc: sending select for 192.168.110.160
+Tue May 20 17:43:14 2025 daemon.notice netifd: wan (15330): udhcpc: lease of 192.168.110.160 obtained, lease time 86400
+Tue May 20 17:43:14 2025 daemon.notice netifd: Interface 'wan' is now up
+Tue May 20 17:43:14 2025 daemon.info dnsmasq[2810]: reading /tmp/resolv.conf.auto
+Tue May 20 17:43:14 2025 daemon.info dnsmasq[2810]: using local addresses only for domain lan
+Tue May 20 17:43:14 2025 daemon.info dnsmasq[2810]: using nameserver 192.168.110.253#53
